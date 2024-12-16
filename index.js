@@ -49,3 +49,5 @@ const minimumAbsoluteDiference = require("./src/HackerRank/week4/minimumAbsolute
 const towerBreakers = require("./src/HackerRank/week4/towerBreakers");
 const caesarCipher = require("./src/HackerRank/week4/caesarCipher");
 const maxMin = require("./src/HackerRank/week5/maxMin.js");
+const fullCountingSort = require("./src/HackerRank/week5/fullCountingSort.js");
+const countingSortExample = require("./src/HackerRank/week5/countingSortExample.js");
