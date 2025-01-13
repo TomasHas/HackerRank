@@ -51,3 +51,12 @@ const caesarCipher = require("./src/HackerRank/week4/caesarCipher");
 const maxMin = require("./src/HackerRank/week5/maxMin.js");
 const fullCountingSort = require("./src/HackerRank/week5/fullCountingSort.js");
 const countingSortExample = require("./src/HackerRank/week5/countingSortExample.js");
+const gridChallenge = require("./src/HackerRank/week5/gridChallenge.js");
+
+const SansaAndXOR = require("./src/HackerRank/week5/SansaAndXOR.js");
+const dinamicArray = require("./src/HackerRank/week5/dinamicArray.js");
+const primeDates = require("./src/HackerRank/week6/primeDates.js");
+const createPhoneNumber = require("./src/codewars/createPhoneNumber.js");
+const addTwoNumbers = require("./src/leetcode/addTwoNumbers.js");
+const linkedLists = require("./src/leetcode/linkedLists.js");
+const twoSum = require("./src/leetcode/twoSum.js");

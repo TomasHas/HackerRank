@@ -3,24 +3,24 @@ function countSort(arr) {
   const indexArr = arr.map((e) => e[0]);
   const max = Math.max(...indexArr);
   const countArray = new Array(max + 1).fill(0);
-  const newArr = [];
+  const outputArray = new Array(arr.length);
+
   for (let i = 0; i < arr.length; i++) {
-    // converts first half of arr to '-'
     if (i < arr.length / 2) {
       arr[i][1] = "-";
     }
+    countArray[indexArr[i]]++;
   }
 
-  // push modified array to newArr
+  for (let i = 1; i < countArray.length; i++) {
+    countArray[i] = countArray[i - 1] + countArray[i];
+  }
+  for (let i = arr.length - 1; i >= 0; i--) {
+    outputArray[countArray[arr[i][0]] - 1] = arr[i][1];
+    countArray[arr[i][0]]--;
+  }
 
-  arr.forEach((e) => {
-    newArr.push(e[1]);
-  });
-  // console.log(countArray);
-
-  // console.log(newArr);
-
-  return newArr;
+  // console.log(outputArray.join(" "));
 }
 
 countSort([
