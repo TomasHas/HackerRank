@@ -60,3 +60,5 @@ const createPhoneNumber = require("./src/codewars/createPhoneNumber.js");
 const addTwoNumbers = require("./src/leetcode/addTwoNumbers.js");
 const linkedLists = require("./src/leetcode/linkedLists.js");
 const twoSum = require("./src/leetcode/twoSum.js");
+const promises = require("./src/promises.js");
+const greatestCandies = require("./src/leetcode75/greatestCandies.js");
